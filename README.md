@@ -22,7 +22,7 @@ Through this project, I aim to:
 
 ## 🛠 Tech Stack
 - **Backend:** Python, Django  
-- **Frontend:** HTML, CSS  
+- **Frontend:** HTML, Tailwind CSS  
 - **Database:** SQLite (default Django database)  
 - **Tools:** VS Code, Git, Virtual Environment
 
