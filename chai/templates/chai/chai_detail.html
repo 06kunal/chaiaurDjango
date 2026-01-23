@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Chai Detail Page
+{% endblock %}
+
+{% block content %}
+<h1>Chai Detail Page </h1>
+
+<button>
+<a href="{% url 'all_chai' %}">
+    Click to go Back
+</a>
+
+</button>
+
+<div
+class="flex flex-col items-center text-center mt-6"
+
+>
+<h3 class="text-2xl font-bold m-4 p-4">{{ chai.name }}</h3>
+<img class="rounded-2xl size-8/12 m-4 p-4" src="{{chai.image.url}}" alt="">
+<p class="text-2xl font-bold m-4 p-4">{{ chai.description }}</p>
+</div>
+
+
+
+{% endblock %}
+
