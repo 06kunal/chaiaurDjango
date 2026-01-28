@@ -20,7 +20,7 @@ Through this project, I aim to:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Backend:** Python, Django  
 - **Frontend:** HTML, Tailwind CSS  
 - **Database:** SQLite (default Django database)  
@@ -43,6 +43,7 @@ Features are being added incrementally as I continue learning Django.
 - Models and migrations  
 - Django Admin panel basics  
 - Theme integration  
+- Django Forms and validation
 
 ---
 
@@ -50,13 +51,12 @@ Features are being added incrementally as I continue learning Django.
 
 - User authentication (login & signup)  
 - CRUD functionality  
-- Django Forms and validation  
 - Django REST Framework (API development)  
 - UI improvements  
 - Project deployment  
 
 
-##Notes
+## Notes
 
 This project is created for learning and experimentation.
 Code structure and practices will improve as my Django knowledge grows.
